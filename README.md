@@ -1,6 +1,5 @@
 # 🤖 KATA-bot: Autonomous Waste Collection Robot
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
 [![C++](https://img.shields.io/badge/C++-Solutions-orange.svg)](https://isocpp.org/)
 [![Hardware](https://img.shields.io/badge/Hardware-ESP32%20%7C%20RPi%204-red.svg)]()
