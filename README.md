@@ -1,53 +1,63 @@
 # 🤖 KATA-bot: Autonomous Waste Collection Robot
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
 [![C++](https://img.shields.io/badge/C++-Solutions-orange.svg)](https://isocpp.org/)
 [![Hardware](https://img.shields.io/badge/Hardware-ESP32%20%7C%20RPi%204-red.svg)]()
 
-**KATA-bot** es un robot autónomo desarrollado para el **Torneo Mexicano de Robótica (TMR)** en la categoría de "Limpieza de Playa". Este proyecto integra visión artificial, sistemas embebidos de alta potencia y telemetría en tiempo real.
+**KATA-bot** is an advanced autonomous robotics platform developed for the **Mexican Robotics Tournament (TMR)** in the "Beach Can Collection" category. This project integrates real-time computer vision, robust embedded systems architecture, and wireless telemetry to solve environmental cleanup challenges.
 
 ---
 
-## 📸 Galería del Proyecto
+## 📸 Project Gallery
 
-### Desarrollo y Hardware
-| Foto 1: Prototipo General | Foto 2: Electrónica/Chasis |
+### Hardware & Development
+| Photo 1: General Prototype | Photo 2: Electronics & Chassis |
 |---|---|
 | <img src="assets/foto1.jpg" width="400"> | <img src="assets/foto2.jpg" width="400"> |
-| Foto 3: Pruebas en Campo | Foto 4: Equipo de Trabajo |
+| **Photo 3: Field Testing** | **Photo 4: Engineering Team** |
 | <img src="assets/foto3.jpg" width="400"> | <img src="assets/foto4.jpg" width="400"> |
 
-### Demos en Video
-Aquí puedes ver al KATA-bot en acción:
+### 📹 Technical Demos
+Watch KATA-bot in action:
 
-#### 1. Prueba de Navegación Autónoma
+#### 1. Autonomous Navigation & Pathfinding
 https://github.com/paco-vive/KATA-bot/assets/video1.mp4
 
-#### 2. Detección de Objetos (OpenCV)
+#### 2. Computer Vision Pipeline (OpenCV Detection)
 https://github.com/paco-vive/KATA-bot/assets/video2.mp4
 
-#### 3. Control vía WebServer (ESP32)
+#### 3. Low-Latency WebServer Control (ESP32/WebSockets)
 https://github.com/paco-vive/KATA-bot/assets/video3.mp4
 
 ---
 
-## 🛠️ Especificaciones Técnicas
+## 🛠️ Technical Specifications
 
-* **Visión Artificial:** Pipeline en **Raspberry Pi 4** con OpenCV para detección de latas mediante filtrado HSV.
-* **Arquitectura Embebida:** Sistema robusto basado en **ESP32**, utilizando optoacopladores para protección de drivers y relevadores para gestión de potencia.
-* **Control de Motores:** Algoritmos de control de velocidad y dirección mediante PWM.
-* **Interfaz de Usuario:** Servidor local HTML/WebSocket integrado en el ESP32 para telemetría y control remoto de baja latencia.
-* **Monitoreo:** Acceso remoto vía VNC/SSH para debugging en tiempo real.
+* **Computer Vision:** Real-time processing on **Raspberry Pi 4** using OpenCV for target detection through HSV color filtering and contour analysis.
+* **Embedded Architecture:** Robust dual-unit system using **ESP32 MCUs** with opto-isolators for driver protection and relay-based power management for high-torque motors.
+* **Web-Based Control:** Custom **WebSocket-based HTML interface** hosted locally on the ESP32, enabling real-time manual override and telemetry.
+* **Remote Monitoring:** Established wireless remote access via **VNC/SSH** for system debugging and live camera feed visualization.
+* **Power Systems:** Managed high-current DC motor draws with a custom-engineered electronic safety layer.
 
-## 👥 Liderazgo y Gestión
-Como **Project Lead**, coordiné a un equipo multidisciplinario de 12 personas, gestionando desde el diseño mecánico en CAD hasta la integración de software y electrónica durante los ciclos 2025-2026.
+## 👥 Leadership & Management
+As **Project Lead**, I managed a multidisciplinary team of 12 engineers. My role focused on technical roadmapping, cross-departmental integration (Mechanics, Electronics, and Software), and rapid prototyping for the 2025 and 2026 competition cycles.
 
-## 🚀 Instalación rápida
-1. Clona el repositorio: `git clone https://github.com/paco-vive/KATA-bot.git`
-2. Instala dependencias en tu RPi: `pip install opencv-python numpy`
-3. Carga el firmware en el ESP32 usando Arduino IDE (carpeta `/firmware`).
+## 🚀 Quick Start
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/paco-vive/KATA-bot.git](https://github.com/paco-vive/KATA-bot.git)
+    ```
+2.  **Install dependencies (RPi):**
+    ```bash
+    pip install opencv-python numpy
+    ```
+3.  **Flash Firmware:**
+    Open the `/firmware` folder in Arduino IDE and upload to the ESP32.
 
 ---
 
-## 👨‍💻 Contacto
-**Francisco Viveros Mendoza** *Ingeniería en Robótica y Telecomunicaciones - UDLAP* [LinkedIn](https://www.linkedin.com/in/francisco-viveros-mendoza-a20a06328/) | [GitHub](https://github.com/paco-vive) | [Portfolio](https://urbanos.vercel.app/)
+## 👨‍💻 About the Author
+**Francisco Viveros Mendoza**
+*B.S. in Robotics and Telecommunications Engineering - UDLAP*
+[LinkedIn](https://www.linkedin.com/in/francisco-viveros-mendoza-a20a06328/) | [GitHub](https://github.com/paco-vive) | [Portfolio](https://urbanos.vercel.app/)
