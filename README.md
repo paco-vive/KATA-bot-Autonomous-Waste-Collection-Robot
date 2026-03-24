@@ -23,7 +23,7 @@
 Watch KATA-bot in action:
 
 #### 1. Autonomous Navigation & Pathfinding
-| <img src="assets/video1.gif" width="400"> | <img src="assets/video1.gif" width="400"> |
+| <img src="assets/video1.gif" width="400"> | <img src="assets/video3.gif" width="400"> |
 
 #### 2. Computer Vision Pipeline (OpenCV Detection)
 <video src="assets/video2.mp4" width="100%"></video>
