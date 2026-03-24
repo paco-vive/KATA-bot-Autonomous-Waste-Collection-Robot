@@ -25,7 +25,8 @@ Watch KATA-bot in action:
 assets/video1.mp4
 
 #### 2. Computer Vision Pipeline (OpenCV Detection)
-https://github.com/paco-vive/KATA-bot/assets/video2.mp4
+https://github.com/paco-vive/KATA-bot/assets/video1.mp4
+
 
 #### 3. Low-Latency WebServer Control (ESP32/WebSockets)
 https://github.com/paco-vive/KATA-bot/assets/video3.mp4
