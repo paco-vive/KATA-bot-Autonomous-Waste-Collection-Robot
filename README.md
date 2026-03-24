@@ -25,10 +25,10 @@ Watch KATA-bot in action:
 https://github.com/paco-vive/KATA-bot-Autonomous-Waste-Collection-Robot/assets/video1.mp4
 
 #### 2. Computer Vision Pipeline (OpenCV Detection)
-<video src="assets/video2.mp4" width="100%" controls></video>
+https://github.com/paco-vive/KATA-bot-Autonomous-Waste-Collection-Robot/assets/video3.mp4
 
 #### 3. Low-Latency WebServer Control (ESP32/WebSockets)
-<video src="assets/video3.mp4" width="100%" controls></video>
+https://github.com/paco-vive/KATA-bot-Autonomous-Waste-Collection-Robot/assets/video2.mp4
 
 ---
 
