@@ -18,18 +18,18 @@
 | **Photo 3: Field Testing** | **Photo 4: Engineering Team** |
 | <img src="assets/foto3.jpg" width="400"> | <img src="assets/foto4.jpg" width="400"> |
 
+
 ### 📹 Technical Demos
 Watch KATA-bot in action:
 
 #### 1. Autonomous Navigation & Pathfinding
-https://github.com/paco-vive/KATA-bot-Autonomous-Waste-Collection-Robot/assets/video1.mp4
+<video src="assets/video1.mp4" width="100%"></video>
 
 #### 2. Computer Vision Pipeline (OpenCV Detection)
-https://github.com/paco-vive/KATA-bot-Autonomous-Waste-Collection-Robot/assets/video3.mp4
+<video src="assets/video2.mp4" width="100%"></video>
 
 #### 3. Low-Latency WebServer Control (ESP32/WebSockets)
-https://github.com/paco-vive/KATA-bot-Autonomous-Waste-Collection-Robot/assets/video2.mp4
-
+<video src="assets/video3.mp4" width="100%"></video>
 ---
 
 ## 🛠️ Technical Specifications
