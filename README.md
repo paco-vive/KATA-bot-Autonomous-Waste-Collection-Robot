@@ -22,7 +22,7 @@
 Watch KATA-bot in action:
 
 #### 1. Autonomous Navigation & Pathfinding
-<video src="assets/video1.mp4" width="100%" controls></video>
+https://github.com/paco-vive/KATA-bot-Autonomous-Waste-Collection-Robot/assets/video1.mp4
 
 #### 2. Computer Vision Pipeline (OpenCV Detection)
 <video src="assets/video2.mp4" width="100%" controls></video>
