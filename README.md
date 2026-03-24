@@ -18,7 +18,6 @@
 | **Photo 3: Field Testing** | **Photo 4: Engineering Team** |
 | <img src="assets/foto3.jpg" width="400"> | <img src="assets/foto4.png" width="400"> |
 
-
 ### 📹 Technical Demos
 Watch KATA-bot in action:
 
@@ -26,10 +25,8 @@ Watch KATA-bot in action:
 | <img src="assets/video1.gif" width="400"> | <img src="assets/video3.gif" width="400"> |
 
 #### 2. Computer Vision Pipeline (OpenCV Detection)
-| <img src="assets/video2.gif" width="400"> |
+<img src="assets/video2.gif" width="400">
 
-#### 3. Low-Latency WebServer Control (ESP32/WebSockets)
-<video src="assets/video3.mp4" width="100%"></video>
 ---
 
 ## 🛠️ Technical Specifications
@@ -40,20 +37,16 @@ Watch KATA-bot in action:
 * **Remote Monitoring:** Established wireless remote access via **VNC/SSH** for system debugging and live camera feed visualization.
 * **Power Systems:** Managed high-current DC motor draws with a custom-engineered electronic safety layer.
 
+## ⚠️ Competition & Confidentiality Notice
+Please note that the **source code and firmware are currently private** due to our upcoming participation in the **Mexican Robotics Tournament (TMR)** on **April 16th, 2026**. To maintain competition integrity and team confidentiality, the files will be made public shortly after the tournament concludes.
+
 ## 👥 Leadership & Management
 As **Project Lead**, I managed a multidisciplinary team of 12 engineers. My role focused on technical roadmapping, cross-departmental integration (Mechanics, Electronics, and Software), and rapid prototyping for the 2025 and 2026 competition cycles.
 
-## 🚀 Quick Start
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/paco-vive/KATA-bot.git](https://github.com/paco-vive/KATA-bot.git)
-    ```
-2.  **Install dependencies (RPi):**
-    ```bash
-    pip install opencv-python numpy
-    ```
-3.  **Flash Firmware:**
-    Open the `/firmware` folder in Arduino IDE and upload to the ESP32.
+## 🚀 Repository Status
+* **Documentation:** ✅ Available
+* **Hardware Assets:** ✅ Available
+* **Source Code:** 🔒 Restricted until April 17th, 2026
 
 ---
 
