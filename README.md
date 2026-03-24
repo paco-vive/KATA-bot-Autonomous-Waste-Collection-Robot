@@ -53,4 +53,4 @@ As **Project Lead**, I managed a multidisciplinary team of 12 engineers. My role
 ## 👨‍💻 About the Author
 **Francisco Viveros Mendoza**
 *B.S. in Robotics and Telecommunications Engineering - UDLAP*
-[LinkedIn](https://www.linkedin.com/in/francisco-viveros-mendoza-a20a06328/) | [GitHub](https://github.com/paco-vive) | [Portfolio](https://urbanos.vercel.app/)
+[LinkedIn](https://www.linkedin.com/in/francisco-viveros-mendoza-a20a06328/) | [GitHub](https://github.com/paco-vive) | 
