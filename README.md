@@ -26,7 +26,7 @@ Watch KATA-bot in action:
 | <img src="assets/video1.gif" width="400"> | <img src="assets/video3.gif" width="400"> |
 
 #### 2. Computer Vision Pipeline (OpenCV Detection)
-<img src="assets/video2.gif" width="100%"></img>
+| <img src="assets/video2.gif" width="400"> |
 
 #### 3. Low-Latency WebServer Control (ESP32/WebSockets)
 <video src="assets/video3.mp4" width="100%"></video>
