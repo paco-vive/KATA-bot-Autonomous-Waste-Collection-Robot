@@ -24,6 +24,9 @@ Watch KATA-bot in action:
 #### 2. Computer Vision Pipeline (OpenCV Detection)
 <img src="assets/video2.gif" width="400">
 
+#### 3. Remote Wifi WebSocket ESP-32 Server FULL CONTROL 
+<img src="assets/video3.gif" width="400">
+
 ---
 
 ## 🛠️ Technical Specifications
