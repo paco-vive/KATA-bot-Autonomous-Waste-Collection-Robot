@@ -12,10 +12,8 @@
 ## 📸 Project Gallery
 
 ### Hardware & Development
-| Photo 1: General Prototype | Photo 2: Electronics & Chassis |
 |---|---|
 | <img src="assets/foto1.jpg" width="400"> | <img src="assets/foto2.jpg" width="400"> |
-| **Photo 3: Field Testing** | **Photo 4: Engineering Team** |
 | <img src="assets/foto3.jpg" width="400"> | <img src="assets/foto4.png" width="400"> |
 
 ### 📹 Technical Demos
