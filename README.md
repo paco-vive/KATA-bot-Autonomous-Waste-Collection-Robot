@@ -25,7 +25,7 @@ Watch KATA-bot in action:
 <img src="assets/video2.gif" width="400">
 
 #### 3. Remote Wifi WebSocket ESP-32 Server FULL CONTROL 
-<img src="assets/video3.gif" width="400">
+<img src="assets/video4.gif" width="400">
 
 ---
 
