@@ -85,6 +85,15 @@ stateDiagram-v2
 
 While searching, the robot follows an S pattern (1.8 s straight, 1.5 s curve). Water has the highest priority and interrupts every state except REACHED_CAN, DEPOSITING and AVOIDING_WATER itself.
 
+## 🔌 ESP32 Firmware (`firmware/esp32/kata_marzo/kata_marzo.ino`, Arduino IDE, C++)
+
+- Creates its own Wi-Fi access point and a **WebSocket server on port 81** for full manual control from a phone or laptop.
+- **Manual mode:** single-letter commands: `F/B/L/R/S` (drive), `W/X` and `P/Ñ` (right/left speed), `K/k` (adjust Kp), `J/M` (conveyor belt on/off), `Q/A` (belt speed), `Y/T` (base speed).
+- **Autonomous mode** (toggled with `Z`): reads the centering error from the Raspberry Pi over UART (115200) and applies **proportional differential steering** (`Kp = 4.5`, base PWM 155). `N` makes it turn to search and `S` stops it.
+- Drives two DC motors and the conveyor belt with 5 kHz, 8-bit LEDC PWM.
+
+> This is the March–April 2026 version of the firmware. It was recovered from the editor history.
+
 ## 🔩 Hardware
 
 | Component | Role |
