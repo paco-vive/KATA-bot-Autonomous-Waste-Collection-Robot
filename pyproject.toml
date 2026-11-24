@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kata-bot"
+version = "2.0.0"
+description = "Autonomous beach-can collection robot (TMR 2026): vision + mission control"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Francisco Viveros Mendoza" }]
+dependencies = ["numpy>=1.20", "opencv-python>=4.5", "pyserial>=3.5"]
+
+[project.optional-dependencies]
+dev = ["pytest>=6"]
+
+[project.scripts]
+kata-vision = "kata_bot.apps.vision_app:main"
+kata-master = "kata_bot.apps.master_app:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
